@@ -1,0 +1,233 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* font-size: 17px; */
+}
+.logo {
+  height: 8rem;
+  width: 8rem;
+  overflow: hidden;
+  margin: -20px -25px -78px -18px;
+  margin-left: 10px;
+  /* margin-top: ; */
+}
+
+
+.all-articles button{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 14px;
+    background-color: crimson;
+    outline: none;
+    color: white;
+    padding: 6px 20px;
+    
+
+}
+.articles {
+  max-width: 800px;
+  display: grid;
+  margin-left: 10px;
+  /* margin-top: 50px; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  list-style: none;
+
+
+}
+.articles img{
+    border: 2px solid #3C8F9F;
+}
+.articles li {
+    border: 1px solid rgb(60, 143, 159);
+    /* background-color: rgba(245, 222, 179,0.2); */
+    background-color:  rgba(60, 143, 159,0.08);
+
+    /* padding: 0 10px; */
+}
+.article-li {
+    padding:0 10px;
+    
+}
+.article-li h4 {
+    color: crimson;
+}
+img {
+  width: 37vh;
+  height: 27vh;
+}
+
+/* main component */
+.apply-border {
+  width: 863px;
+  /* margin: 15px auto; */
+  margin-left: 50px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 2px solid #3C8F9F;
+  margin-bottom: 40px;
+  /* object-fit: cover; */
+  /* grid-gap: 1rem; */
+  /* display: flex;
+   justify-content: start; */
+}
+.hero-img {
+    height: 300px;
+}
+.hero-img img{
+  /* margin-top: 20px; */
+  width: 100%;
+  height: 100%;
+
+}
+/* .hero-img img { */
+/* width: ; */
+/* } */
+.hero-content {
+    /* padding-left: 30px; */
+    text-align: left;
+    direction: ltr;
+    border-left: 2px solid #3C8F9F;
+
+}
+.hero-content h3{
+    border-bottom: 2px solid #3C8F9F ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.hero-content p {
+    padding-left: 20px;
+    word-spacing: 0.25rem;
+}
+.hero-content button{
+  margin-left: 20px;
+  text-align: center;
+  padding: 6px 20px;
+  font-size: 14px;
+  background-color: rgba(220, 60, 60, 1);
+  color: white;
+
+  /* border: 1px solid crimson; */
+}
+.hero-content button:hover{
+    background-color: rgba(220, 60, 60, 0.9);
+
+}
+
+.hero-content p {
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.headings {
+  max-width: 350px;
+}
+
+/* .content {
+  width: 15vw;
+} */
+.sidebar {
+  list-style: none;
+  height: 160vh;
+  margin-top: -80vh;
+  margin-right: 10px;
+}
+
+.headlines-border {
+  border: 1px solid #3C8F9F;
+  padding: 7px;
+}
+.headlines-border h3 {
+    color: crimson;
+}
+.headlines-title {
+    color: #3C8F9F;
+}
+.search-border {
+  /* border: 2px solid black; */
+  background-color: #99b3ff;
+  opacity: ;
+  /* padding: 50px auto;  */
+  /* padding-top: 15px; */
+  /* margin-bottom: 15px; */
+  padding-bottom: 15px;
+  position: fixed;
+  z-index: 34;
+  width: 100%;
+  /* background-color: #f8f8f8; */
+  margin-top: -5rem;
+}
+.search-border h3 {
+  /* margin:  auto; */
+  position: absolute;
+
+  left: 9%;
+  color: crimson;
+  font-style: italic;
+}
+.search-border input {
+  /* margin: 0px auto; */
+  margin-bottom: 10px;
+}
+
+.input-bar {
+  text-align: center;
+}
+.buttons {
+  text-align: center;
+  margin-top: 5rem;
+}
+.input-bar input {
+  padding: 1px 30px;
+  font-size: 20px;
+  outline: none;
+  margin-top: 5px;
+  text-align: center;
+  background: white;
+  border: 1px solid  white;
+  border-radius: 15px;
+
+}
+.input-bar label {
+    /* margin-bottom: 20px; */
+color: #17144D;
+font-size: 18px;
+font-style: italic;
+}
+.category-buttons {
+    margin: 60px auto;
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+
+}
+.category-buttons:hover {
+    background-color: rgba(220, 60, 60, 0.9);
+    /* opacity: 0.7; */
+}
+
+footer {
+    text-align: center;
+    background-color: #99b3ff;
+    /* padding: 14px auto; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+
+}
+footer h5 {
+    word-spacing: 0.25rem;
+}
